@@ -2,7 +2,7 @@
 IDENTIFYING CUSTOMER INTERACTIONS BETWEEN ORDERS
 
 Scenario: A marketing department would like to understand what drives customers purchases.
-Solution: This logic creates on an order level features table which seeks to map interactions across channels & website behaviours.
+Solution: This logic creates on an order level features table which seeks to map interactions across channels & website behaviours in the time since the last order.
 
 Example Uses For Logic:
 * Conduct high level analysis on trends between customers with shorter purchase journey's, looking at similarities & differences between interactions between orders.
