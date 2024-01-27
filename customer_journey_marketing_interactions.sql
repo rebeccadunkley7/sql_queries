@@ -71,8 +71,8 @@ where       acquisition_date between '2022-01-01' AND current_date()
 ,returns_data as
 -- how many items from teh order have had returns processed?
 (
-select     wix_order_id ,SUM(quantity_returned) items_returned, max(LEFT(refund_date,10)) refund_date --,transaction_id
-from       master_prod_db.gymshark.refunds_master
+select     wix_order_id ,SUM(quantity_returned) items_returned, max(LEFT(refund_date,10)) refund_date
+from       sales.refunded_items
 where      wix_order_id in (select wix_order_name from base_table)
 group by   1
 )
