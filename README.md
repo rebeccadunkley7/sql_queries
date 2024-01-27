@@ -11,7 +11,7 @@ This repository if designed to provide a quick glance at my sql capabilities, wi
 | Regular Expressions  | Content Cell  |
 | String Manipulation  | Content Cell  |
 | Wildcards  | Content Cell  |
-| Joins (Multiple Datasest)  | Content Cell  |
+| Joins (Multiple Datasest)  | [customer_journey_marketing_interactions](sql_queries/customer_journey_marketing_interactions.sql)  |
 | Joins (Between Dates) | Content Cell  |
 | Window Frames | Content Cell  |
 | Sliding Window Frames | Content Cell  |
